@@ -19,9 +19,5 @@ basic.forever(function () {
     }
     if (potato < 0) {
         basic.clearScreen()
-        if (potato > 0) {
-            basic.showIcon(IconNames.Chessboard)
-            potato += -1
-        }
     }
 })
